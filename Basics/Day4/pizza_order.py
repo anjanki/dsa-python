@@ -1,6 +1,8 @@
-# 🍕 Pizza Order Program
+# add pizza ordering system with dynamic bill calculation
 
-# Take pizza size input
+#Added size-based pricing (S/M/L)
+#Included optional pepperoni and extra cheese
+#Calculated final bill using conditional logic
 size = input("What size pizza do you want (S/M/L)? ").upper()
 
 bill = 0
