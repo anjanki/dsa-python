@@ -7,5 +7,7 @@ for i in range(n):
         frequency_map[nums[i]]+=1
     else:
         frequency_map[nums[i]]=1
-print(frequency_map)              
+max_key=max(frequency_map,key=frequency_map.get) #to max key and value both
+print(max_key,frequency_map[max_key])       
+print(max(frequency_map.values())) # to find only max value of key             
 
