@@ -1,0 +1,2 @@
+#printing fabonaci series
+n=int(input("Enter the"))
