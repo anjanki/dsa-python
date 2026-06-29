@@ -8,3 +8,7 @@ if s==rev:
     print("it is palindome")
 else:
     print("it is not palindrome")
+
+
+   
+    

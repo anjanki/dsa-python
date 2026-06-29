@@ -6,3 +6,7 @@ def countdigit(num):
     return int(log10(num))+1
 
 print(countdigit(num))
+
+
+
+
